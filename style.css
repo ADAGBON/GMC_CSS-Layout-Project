@@ -1,0 +1,91 @@
+/*  Global */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: #333;
+}
+
+/*  Hero/Header */
+.hero {
+  background-color: #468ba2; /* Soft background #f4f7f8;  */
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.hero-nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.hero-nav a {
+  text-decoration: none; color: #00758f; font-weight: bold;
+}
+
+/*  Features Cards */
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+}
+.card {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center;
+}
+.card img {
+  max-width: 100px;
+}
+
+/*  Stats Section */
+.stats {
+  background-color: #f6f6f6;
+  padding: 3rem 1rem;
+  text-align: center;
+}
+.stat-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.stat {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 200px;
+}
+
+/*  Careers Section */
+.careers {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+.cities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.cities button,
+.all-openings {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: #00758f;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.all-openings {
+  background: #005f73;
+}
+
+/*  Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #ececec;
+  font-size: 0.9rem;
+}
